@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("hello")
+	fmt.Println("hello1")
 
 	php.Start()
 	detector,err := WebshellDetector.NewDefaultDetector(php.Stdin,php.Stdout)
@@ -17,7 +17,7 @@ func main() {
 		return
 	}
 
-	path:= "xxx.txt"
+	path:= "sample.php"
 	src, err := ioutil.ReadFile(path)
 	if err != nil {
 		fmt.Println("read file err",err)
