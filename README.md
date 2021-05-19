@@ -1,8 +1,13 @@
 # webshell-detector
 
-## test for webshell
+## usage
 
-build ok in ubuntu 18.04
-in Macos php7.2.10 build failed, may change php version to solve this which i am not try yet.
+- first: make -C php
+	- build ok in ubuntu 18.04
+	- build failed in Macos:  may change php version to solve this which i am not try yet.
 
+- second: go build -o test
+- run: ./test
+
+## comment
 file "sample.php" has webshell vulnerability, after run test,we can see the score 
