@@ -11,3 +11,6 @@
 
 ## comment
 file "sample.php" has webshell vulnerability, after run test,we can see the score 
+
+## notice
+not support concurrent running
